@@ -6,11 +6,7 @@ import {
   Title1,
 } from "@fluentui/react-components";
 import App from "./App";
-import {
-  BrowserRouter,
-  RouterProvider,
-  createBrowserRouter,
-} from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { BookTimePage } from "./components/book_time";
 import { BookingsList } from "./components/bookings";
 

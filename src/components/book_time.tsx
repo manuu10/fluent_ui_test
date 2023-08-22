@@ -3,7 +3,6 @@ import {
   Combobox,
   useId,
   Option,
-  Input,
   Spinner,
   SpinButton,
   useToastController,
@@ -12,7 +11,7 @@ import {
   Toaster,
 } from "@fluentui/react-components";
 import { CheckmarkCircle24Filled } from "@fluentui/react-icons";
-import { DatePicker, DatePickerProps } from "@fluentui/react-datepicker-compat";
+import { DatePicker } from "@fluentui/react-datepicker-compat";
 import { demoProjects, demoTasks } from "../data/demo_data";
 import { useState } from "react";
 

@@ -1,6 +1,4 @@
-import { Button } from "@fluentui/react-components";
 import { Sidebar } from "./components/core/sidebar";
-import { BookTimePage } from "./components/book_time";
 import { Outlet } from "react-router-dom";
 
 function App() {

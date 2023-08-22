@@ -1,4 +1,4 @@
-import { Button, Tab, TabList } from "@fluentui/react-components";
+import { Tab, TabList } from "@fluentui/react-components";
 
 import {
   Timer48Regular,
