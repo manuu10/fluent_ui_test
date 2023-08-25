@@ -5,7 +5,9 @@ function App() {
   return (
     <div style={{ display: "flex", width: "100vw" }}>
       <Sidebar />
-      <main style={{ padding: "1.5rem" }}>
+      <main
+        style={{ padding: "1.5rem", maxHeight: "100vh", overflow: "scroll" }}
+      >
         <Outlet />
       </main>
     </div>

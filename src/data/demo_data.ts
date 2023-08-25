@@ -54,7 +54,7 @@ export const demoTasks = [
   },
 ];
 
-export function demoBookings() {
+export function demoBookings(size: number) {
   const list = [] as {
     name: string;
     task: (typeof demoTasks)[0];
@@ -63,7 +63,7 @@ export function demoBookings() {
     date: Date;
     comment: string;
   }[];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < size; i++) {
     const rngTaskIdx = Math.floor(Math.random() * demoTasks.length);
     const rngPrjIdx = Math.floor(Math.random() * demoProjects.length);
     const time = Math.floor(Math.random() * 10);

@@ -17,7 +17,13 @@ import { useState } from "react";
 
 export function BookTimePage() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "1rem",
+      }}
+    >
       <h4>Projekt</h4>
       <Combobox placeholder="Projekt auswählen">
         {demoProjects.map((option) => {
