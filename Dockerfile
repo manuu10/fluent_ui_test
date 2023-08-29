@@ -1,7 +1,8 @@
 FROM node:lts-alpine
+RUN mkdir -p /app
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
-COPY package.json .
-RUN npm install
-COPY . .
-CMD ["npm","run","dev"]
+COPY package*.json ./
+RUN yarn
+COPY . ./
+CMD ["yarn","run","dev","--host"]               
